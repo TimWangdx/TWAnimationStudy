@@ -73,6 +73,7 @@
 - (void)animationDidStart:(CAAnimation *)anim{
     NSString *info = NSStringFromCGPoint(self.testLayer.position);
     NSLog(@"%@",info);
+    NSLog(@"%@",info);
 }
 
 - (void)animationDidStop:(CAAnimation *)anim finished:(BOOL)flag{
